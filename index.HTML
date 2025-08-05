@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<h1 id="title"> Task Flow</h1>
+<h4 id="small">Organize your life with our intelligent todo app. Track progress, set priorities, and achieve your goals</h4>
+  
+<div id="s-box">
+    <div class="s-small1">Smart priorities</div>
+    <div class="s-small1">Quick Actions</div>
+    <div class="s-small1">Track Progress</div>
+</div>
+
+ <div id="box">
+    <div class="box1"> Complete</div>
+    <div class="box2">Active</div>
+    <div class="box3">Overdue</div>
+    <div class="box4">Due Today</div>
+ </div>
+
+ <div id='form'>
+    <div id="title21">
+        <p id="box-title">Add All Task</p>
+        <p id="in-title">Task Title</p>
+        <input type="text" placeholder="What needs to be done?" id="todo">
+        <p  id="Description1">Description (Optional)</p>
+        <input type="text" placeholder="Add more details..." id="Description">
+       
+    <div class="sc">
+  <div class="onesc">
+    <div class="selctor">
+      <div id="Priorityt">Priority</div>
+      <select id="task-priority">
+        <option value="high">High Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="low">Low Priority</option>
+        <option value="learning">Learning</option>
+      </select>
+    </div>
+
+    <div class="twosc">
+      <div id="Category1">Category</div>
+      <select id="Category">
+        <option value="personal">Personal</option>
+        <option value="work">Work</option>
+        <option value="shopping">Shopping</option>
+        <option value="health">Health</option>
+        <option value="learning">Learning</option>
+      </select>
+    </div>
+    
+  </div>
+  
+</div>
+<label for="task-date"></label>
+<div id="Category1">Date</div>
+<input type="text" id="task-date" placeholder="Pick a date" readonly>
+<button id="done"> add Task</button>   
+</div>  
+    </div>      
+ </div>
+
+ <div class="filter">
+    <h4 id="ttt">Filter & Search</h4>
+    <input type="text" placeholder="Search Tasks..." id="Search">
+    <div class="buttons">
+<div class="button">All Tasks</div>
+<div class="button">Active</div>
+<div class="button">Compelted</div>
+
+</div>
+
+
+
+  
+ </div>
+ 
+ <div id="task-list">
+  <ul id="list">
+    <li> <input type="checkbox" name="checkbox" id="checkbox">Anush
+    </li>
+  </ul>
+ </div>
+
+</body>
+<script src="todo.js"></script>
+</html>
